@@ -155,10 +155,8 @@ console.log(typeof(undefined))
 // 11. Basic Console
 // Write code to display "Hello, JavaScript!" in the console in three different ways.
 console.log("hello javascript");
- let word="hello javascript";
- console.log(word);
- let word2="javascript";
- console.log(`hello ${word2}`)
+ console.warn("hello javascript");
+ console.info("hello javascript")
 
 // 12. Variables and Numbers
 // Create two number variables and combine them with each mathematical operator (+, -,
